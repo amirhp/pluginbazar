@@ -4,7 +4,7 @@
  * @modifications Brian Thurlow 10/16/13
  *
  */
-package com.smartmobilesoftware.inappbilling2;
+package com.smartmobilesoftware.inappbilling;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
