@@ -3,7 +3,7 @@
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="dukanbilling.inappbilling"
-    version="3.0.5">
+    version="3.0.6">
 
     <name>Bazar InAppBilling</name>
     <description>Use this In-app Billing plugin to sell digital goods, including one-time items and recurring subscriptions from your Cordova application.
@@ -28,6 +28,9 @@
             <!-- InApp Billing -->
             <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR" />
     
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
         </config-file>
 
         <!-- Cordova >= 3.0.0 -->
